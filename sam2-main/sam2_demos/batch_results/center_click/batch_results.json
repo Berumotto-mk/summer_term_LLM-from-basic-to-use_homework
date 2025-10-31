@@ -1,0 +1,74 @@
+{
+  "notebooks/images/cars.jpg": {
+    "input_image": "notebooks/images/cars.jpg",
+    "output_image": "sam2_demos/batch_results/center_click/cars_segmented.png",
+    "strategy": "center_click",
+    "points": [
+      [
+        1125,
+        750
+      ]
+    ],
+    "labels": [
+      1
+    ],
+    "best_score": 0.33915817737579346,
+    "all_scores": [
+      0.33915817737579346,
+      0.12959107756614685,
+      0.21154150366783142
+    ],
+    "image_size": [
+      2250,
+      1500
+    ]
+  },
+  "notebooks/images/groceries.jpg": {
+    "input_image": "notebooks/images/groceries.jpg",
+    "output_image": "sam2_demos/batch_results/center_click/groceries_segmented.png",
+    "strategy": "center_click",
+    "points": [
+      [
+        400,
+        267
+      ]
+    ],
+    "labels": [
+      1
+    ],
+    "best_score": 0.9288726449012756,
+    "all_scores": [
+      0.28122588992118835,
+      0.9103791117668152,
+      0.9288726449012756
+    ],
+    "image_size": [
+      800,
+      534
+    ]
+  },
+  "notebooks/images/truck.jpg": {
+    "input_image": "notebooks/images/truck.jpg",
+    "output_image": "sam2_demos/batch_results/center_click/truck_segmented.png",
+    "strategy": "center_click",
+    "points": [
+      [
+        900,
+        600
+      ]
+    ],
+    "labels": [
+      1
+    ],
+    "best_score": 0.7171884179115295,
+    "all_scores": [
+      0.7171884179115295,
+      0.13626272976398468,
+      0.4010534882545471
+    ],
+    "image_size": [
+      1800,
+      1200
+    ]
+  }
+}

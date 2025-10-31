@@ -1,0 +1,79 @@
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 21407 (\N{CJK UNIFIED IDEOGRAPH-539F}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 20987 (\N{CJK UNIFIED IDEOGRAPH-51FB}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 21106 (\N{CJK UNIFIED IDEOGRAPH-5272}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 32467 (\N{CJK UNIFIED IDEOGRAPH-7ED3}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:126: UserWarning: Glyph 24471 (\N{CJK UNIFIED IDEOGRAPH-5F97}) missing from font(s) DejaVu Sans.
+  plt.tight_layout()
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 21407 (\N{CJK UNIFIED IDEOGRAPH-539F}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 22270 (\N{CJK UNIFIED IDEOGRAPH-56FE}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 28857 (\N{CJK UNIFIED IDEOGRAPH-70B9}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 20987 (\N{CJK UNIFIED IDEOGRAPH-51FB}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 21106 (\N{CJK UNIFIED IDEOGRAPH-5272}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 32467 (\N{CJK UNIFIED IDEOGRAPH-7ED3}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 26524 (\N{CJK UNIFIED IDEOGRAPH-679C}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+/mnt/f/angment/sam2-main/simple_demo.py:127: UserWarning: Glyph 24471 (\N{CJK UNIFIED IDEOGRAPH-5F97}) missing from font(s) DejaVu Sans.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight')
+🚀 开始SAM2演示测试
+========================================
+📋 基础环境检查...
+  - PyTorch: 2.7.1+cpu
+  - CUDA: False
+  - 工作目录: /mnt/f/angment/sam2-main
+
+📁 文件检查...
+  - 模型权重: True (checkpoints/sam2.1_hiera_tiny.pt)
+  - 示例图片: True (notebooks/images/cars.jpg)
+  - 配置文件: True (configs/sam2.1/sam2.1_hiera_t.yaml)
+
+📦 导入SAM2模块...
+✅ SAM2模块导入成功
+
+🔧 加载SAM2模型...
+  - 使用设备: cpu
+✅ 模型加载成功
+
+🖼️  加载并处理图片...
+  - 图片尺寸: (1500, 2250, 3)
+✅ 图片预处理完成
+
+🎯 执行点击分割...
+  - 点击位置: (1125, 750)
+✅ 分割完成!
+  - 生成mask数量: 3
+  - 得分: [0.33915818 0.12959108 0.2115415 ]
+  - 最佳得分: 0.339
+
+💾 生成可视化结果...
+✅ 结果已保存: sam2_demo_result.png
+  - 文件大小: 1246.7 KB
+
+========================================
+🎉 SAM2演示测试完成!
+
+📊 演示结果摘要:
+  - 输入图片: notebooks/images/cars.jpg
+  - 点击位置: 图片中心 (1125, 750)
+  - 生成mask: 3个候选
+  - 最佳得分: 0.339
+  - 输出文件: sam2_demo_result.png

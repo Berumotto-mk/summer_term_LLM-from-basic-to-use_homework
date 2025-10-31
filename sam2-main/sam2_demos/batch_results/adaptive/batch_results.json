@@ -1,0 +1,114 @@
+{
+  "notebooks/images/cars.jpg": {
+    "input_image": "notebooks/images/cars.jpg",
+    "output_image": "sam2_demos/batch_results/adaptive/cars_segmented.png",
+    "strategy": "adaptive",
+    "points": [
+      [
+        450,
+        450
+      ],
+      [
+        787,
+        600
+      ],
+      [
+        1125,
+        750
+      ],
+      [
+        1462,
+        900
+      ],
+      [
+        1800,
+        1050
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "best_score": 0.8777652978897095,
+    "all_scores": [
+      0.8777652978897095,
+      0.15250219404697418,
+      0.4383724629878998
+    ],
+    "image_size": [
+      2250,
+      1500
+    ]
+  },
+  "notebooks/images/groceries.jpg": {
+    "input_image": "notebooks/images/groceries.jpg",
+    "output_image": "sam2_demos/batch_results/adaptive/groceries_segmented.png",
+    "strategy": "adaptive",
+    "points": [
+      [
+        160,
+        160
+      ],
+      [
+        640,
+        373
+      ]
+    ],
+    "labels": [
+      1,
+      1
+    ],
+    "best_score": 0.8215816020965576,
+    "all_scores": [
+      0.8215816020965576,
+      0.04357736185193062,
+      0.2238679975271225
+    ],
+    "image_size": [
+      800,
+      534
+    ]
+  },
+  "notebooks/images/truck.jpg": {
+    "input_image": "notebooks/images/truck.jpg",
+    "output_image": "sam2_demos/batch_results/adaptive/truck_segmented.png",
+    "strategy": "adaptive",
+    "points": [
+      [
+        360,
+        360
+      ],
+      [
+        720,
+        520
+      ],
+      [
+        1080,
+        680
+      ],
+      [
+        1440,
+        840
+      ]
+    ],
+    "labels": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "best_score": 0.9645704627037048,
+    "all_scores": [
+      0.9645704627037048,
+      0.41055911779403687,
+      0.8772795796394348
+    ],
+    "image_size": [
+      1800,
+      1200
+    ]
+  }
+}

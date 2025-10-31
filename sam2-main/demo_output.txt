@@ -1,0 +1,12 @@
+🚀 开始SAM2演示测试
+========================================
+📋 基础环境检查...
+  - PyTorch: 2.7.1+cpu
+  - CUDA: False
+  - 工作目录: /mnt/f/angment/sam2-main
+
+📁 文件检查...
+  - 模型权重: True (checkpoints/sam2.1_hiera_tiny.pt)
+  - 示例图片: True (notebooks/images/cars.jpg)
+  - 配置文件: False (configs/sam2.1/sam2.1_hiera_t.yaml)
+❌ 必要文件缺失，退出演示
